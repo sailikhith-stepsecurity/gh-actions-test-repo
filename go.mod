@@ -3,7 +3,7 @@ module gh-actions-test-repo
 go 1.22.6
 
 require (
-	github.com/fsnotify/fsnotify v1.7.0
+	github.com/fsnotify/fsnotify v1.8.0
 	github.com/labstack/echo v3.3.10+incompatible
 	github.com/spf13/viper v1.19.0
 )
