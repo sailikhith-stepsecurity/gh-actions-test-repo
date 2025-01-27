@@ -25,7 +25,7 @@ func readConfig() {
 	viper.AddConfigPath(".")
 	// Read the configuration file
 	if err := viper.ReadInConfig(); err != nil {
-		fmt.Printf("Error reading config file: %s\n", err)
+		fmt.Printf("Error reading config file : %s\n", err)
 	}
 
 	// Watch for changes in the config file
