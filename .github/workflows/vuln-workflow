@@ -1,0 +1,9 @@
+name: vuln workflow
+on:
+  workflow_dispatch:
+  
+jobs:
+  run:
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
