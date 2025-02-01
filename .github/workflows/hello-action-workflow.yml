@@ -1,4 +1,4 @@
-name: Test Hello Action
+name: Hello Action
 on:
   workflow_dispatch:
     inputs:
